@@ -53,4 +53,4 @@ _You can see an example in the demo.env file_
 
 Deploy on heroku
 
-https://ecommerce-pf.herokuapp.com/
+https://apirest-node-mongo-express.herokuapp.com/
