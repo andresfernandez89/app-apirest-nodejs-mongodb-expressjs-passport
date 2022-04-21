@@ -27,9 +27,11 @@
 App require [Node.js](https://nodejs.org/)
 
 Install dependencies
-sh
+
+```sh
 npm i
 npm start
+```
 
 ## .env file
 
