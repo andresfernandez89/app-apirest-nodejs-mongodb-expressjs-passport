@@ -1,0 +1,54 @@
+<h3 class="text-center mt-5 mb-3">CHAT</h3>
+<div class=" ">
+	<form id="chat" class="row bg-secondary rounded mx-5 p-3">
+		<div class="col-12 text-center">
+			<label for="email" class="form-label fw-bold">Email:</label>
+			<input
+				class="w-100"
+				type="email"
+				id="email"
+				name="email"
+				placeholder="Write your email"
+				required
+			/>
+		</div>
+		<div class="col-12 text-center">
+			<label for="name" class="form-label fw-bold">Name:</label>
+			<input
+				class="w-100"
+				type="text"
+				id="name"
+				name="name"
+				placeholder="Write your name"
+				required
+			/>
+		</div>
+		<div class="col-12 text-center">
+			<label for="lastname" class="form-label fw-bold">lastname:</label>
+			<input
+				class="w-100"
+				type="text"
+				id="lastname"
+				name="lastname"
+				placeholder="Write your lastname"
+				required
+			/>
+		</div>
+		<table
+			id="messages"
+			class="col-12 border rounded-3 bg-white my-2 py-2"
+			style="height: 200px"
+		></table>
+		<div class="col-9 offset-md-1">
+			<input
+				class="w-100"
+				type="text"
+				id="message"
+				name="message"
+				placeholder="Write a message"
+				required
+			/>
+		</div>
+		<button type="submit" class="col-2 btn btn-primary">Send</button>
+	</form>
+</div>
