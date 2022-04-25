@@ -1,6 +1,12 @@
-# API RESTFULL - ECOMMERCE
+# API RESTFUL - ECOMMERCE
 
-## CRUD - DAO - NODEJS - EXPRESS - MONGO DB
+## CRUD - DAO - NODEJS - EXPRESS - MONGO DB - WEBSOCKETS - PASSPORT - TWILIO - NODEMAILER
+
+## Deploy
+
+Deploy on heroku
+
+https://apirest-node-mongo-express.herokuapp.com/
 
 ## Technologies
 
@@ -33,6 +39,15 @@ npm i
 npm start
 ```
 
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
 ## .env file
 
 - PORT="port"
@@ -48,9 +63,3 @@ npm start
 - TWILIO_AUTHTOKEN="twilio token"
 
 _You can see an example in the demo.env file_
-
-## Deploy
-
-Deploy on heroku
-
-https://apirest-node-mongo-express.herokuapp.com/
